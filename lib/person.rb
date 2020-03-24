@@ -9,7 +9,8 @@ class Person
   end
   def name
     "#{name}".strip
-
+  end
+  
   def job=(job)
     @job = job
   end
